@@ -6,6 +6,7 @@
         <router-view></router-view>
       </v-main>
       <Datepicker />
+      <Rating />
       <FooterComponent />
     </BackgroundComponent>
   </v-app>
@@ -17,4 +18,5 @@ import MenuComponent from './components/Menu.vue'
 import BackgroundComponent from './components/Background.vue'
 import ApartmentsList from './components/ApartmentsList.vue'
 import Datepicker from './components/Datepicker.vue'
+import Rating from './components/Rating.vue'
 </script>
